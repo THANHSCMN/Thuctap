@@ -15,6 +15,7 @@ public class CareerController {
     @Autowired
     private CareerService careerService;
 
+
     @GetMapping
     public List<CareerDTO> getAllCareers() {
         return careerService.getAll();
